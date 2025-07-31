@@ -1,8 +1,11 @@
 import React from "react";
 import weeklyMenu from "../../utils/WeeklyMenu";
+import { useParams } from "react-router";
 
 const WeeklyMealDashboard = () => {
-    const dayName = new Date().toLocaleDateString("en-US", { weekday: "long" });
+    
+    const { day } = useParams(); 
+    const dayName = day || new Date().toLocaleDateString("en-US", { weekday: "long" });
     const todayMenu = weeklyMenu[dayName];
 
     if (!todayMenu) {
