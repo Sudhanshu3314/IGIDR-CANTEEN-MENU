@@ -4,7 +4,7 @@ import weeklyMenu from "../../utils/WeeklyMenu";
 const WeeklyMealDashboard = () => {
     const today = new Date();
     const dayName = today.toLocaleDateString("en-US", { weekday: "long" });
-    const todayMenu = weeklyMenu["Wednesday"];
+    const todayMenu = weeklyMenu[dayName];
 
     if (!todayMenu) {
         return (
