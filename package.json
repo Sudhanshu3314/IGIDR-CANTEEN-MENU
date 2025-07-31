@@ -1,7 +1,7 @@
 {
-    "name": "igidr-telephone-directory",
+    "name": "igidr-canteen-menu",
     "version": "1.0.0",
-    "description": "Telephone directory of IGIDR institute",
+    "description": "Canteen Menu of IGIDR institute",
     "scripts": {
         "test": "\"jest\"",
         "start": "parcel public/index.html",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Sudhanshu3314/Canteen-Meal-Management-System.git"
+        "url": "https://github.com/Sudhanshu3314/IGIDR-CANTEEN-MENU.git"
     },
     "keywords": [
         "Canteen",
