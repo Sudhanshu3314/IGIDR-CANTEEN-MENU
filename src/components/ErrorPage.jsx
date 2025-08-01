@@ -12,7 +12,7 @@ const ErrorPage = () => {
         <div className="text-center">
             <div className="flex items-center flex-col justify-center min-h-screen ">
                 <img
-                    src="https://i.pinimg.com/1200x/13/75/7f/13757ff4b62025394ea27aaf46fe12ae.jpg"
+                    src="https://indianmemetemplates.com/wp-content/uploads/Bhai-kya-kar-raha-hai-tu.jpg"
                     className="w-[300px] "
                     alt="Error Illustration"
                 />
